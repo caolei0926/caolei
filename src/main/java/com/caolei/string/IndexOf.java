@@ -9,5 +9,7 @@ public class IndexOf {
         System.out.println(s1.indexOf("哈"));
         System.out.println(s1.length());
         System.out.println(s1.indexOf("哈",20,30));
+
+        System.out.println(s1.lastIndexOf("哈"));
     }
 }
