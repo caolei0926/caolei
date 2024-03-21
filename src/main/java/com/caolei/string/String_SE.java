@@ -8,5 +8,7 @@ public class String_SE {
         String s1 = "123abc";
         String s2 = "123abc";
         System.out.println(s1.equals(s2));
+        System.out.println(s1 == s2);
+
     }
 }
