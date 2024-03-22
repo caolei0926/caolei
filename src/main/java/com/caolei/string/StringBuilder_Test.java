@@ -12,6 +12,5 @@ public class StringBuilder_Test {
         sb.delete(5, 7);
         sb.replace(5, 7, "java");
         sb.reverse();//字符串反转
-        System.out.println(sb);
     }
 }

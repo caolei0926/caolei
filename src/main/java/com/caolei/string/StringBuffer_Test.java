@@ -6,7 +6,7 @@ package com.caolei.string;
 public class StringBuffer_Test {
     public static void main(String[] args) {
         StringBuffer sb = new StringBuffer("hello");
-        sb.append("world");
+        sb.append("world").append(1).delete(0, 5).insert(0, "hello");
         sb.append("java");
         sb.append("python");
         sb.append("php");
@@ -16,11 +16,9 @@ public class StringBuffer_Test {
         sb.append("go");
         sb.append("ruby");
         sb.append("perl");
-        sb.reverse() ;
-        sb.delete(0,5);
+        //sb.reverse() ;
         sb.insert(0, "hello");
         sb.replace(0, 5, "hello");
-
         System.out.println(sb);
     }
 }
