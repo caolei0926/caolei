@@ -1,4 +1,4 @@
-package com.caolei.object;
+package com.caolei.object_se;
 
 import java.util.Objects;
 

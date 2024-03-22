@@ -1,4 +1,4 @@
-package com.caolei.object;
+package com.caolei.object_se;
 
 public class PointDemo {
     public static void main(String[] args) {
