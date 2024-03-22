@@ -13,6 +13,6 @@ public class Regular {
         String email = sc.nextLine();
         String regex = "^\\w+@\\w+(\\.\\w+)+$";
         System.out.println(email.matches(regex));
-
+        
     }
 }
