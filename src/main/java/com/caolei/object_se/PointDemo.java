@@ -18,5 +18,14 @@ public class PointDemo {
 
         System.out.println(dMax);  // 输出 Double.MAX_VALUE
         System.out.println(dMin);  // 输出 Double
+
+        // 定义一个 float 类型的最大值常量
+        float fMax = Float.MAX_VALUE;
+        // 定义一个 float 类型的最小值常量
+        float fMin = Float.MIN_VALUE;
+
+        // 输出最大值和最小值
+        System.out.println(fMax);
+        System.out.println(fMin);
     }
 }
