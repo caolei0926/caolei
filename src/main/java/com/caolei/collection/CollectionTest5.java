@@ -16,6 +16,7 @@ public class CollectionTest5 {
             System.out.println(s);
         }
         //传统for循环遍历
+        System.out.println("=========================");
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i));
         }
