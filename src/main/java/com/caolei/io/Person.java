@@ -8,7 +8,7 @@ public class Person implements Serializable{
     private String name;
     private int age;
     private boolean sex;
-    private String[] other;
+    private transient String[] other;
 
     public Person(String name, int age) {
         this.name = name;
